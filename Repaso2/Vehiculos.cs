@@ -16,5 +16,12 @@ namespace Repaso2
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Form1 vclientes = new Form1();
+            vclientes.Show();
+            this.SetVisibleCore(false);
+        }
     }
 }

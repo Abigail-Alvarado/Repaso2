@@ -72,6 +72,12 @@
     <Compile Include="Vehiculos.Designer.cs">
       <DependentUpon>Vehiculos.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Aquiler.resx">
+      <DependentUpon>Aquiler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Clientes.resx">
+      <DependentUpon>Clientes.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
     </EmbeddedResource>
@@ -84,6 +90,9 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Vehiculos.resx">
+      <DependentUpon>Vehiculos.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
