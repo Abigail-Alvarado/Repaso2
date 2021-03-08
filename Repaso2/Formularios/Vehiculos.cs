@@ -12,6 +12,8 @@ namespace Repaso2
 {
     public partial class Vehiculos : Form
     {
+        List<Vehículos> vehiculos = new List<Vehículos>();
+        string archivo2 = "vehículos.txt";
         public Vehiculos()
         {
             InitializeComponent();
@@ -22,6 +24,13 @@ namespace Repaso2
             Form1 vclientes = new Form1();
             vclientes.Show();
             this.SetVisibleCore(false);
+        }
+
+        
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

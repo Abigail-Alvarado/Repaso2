@@ -46,9 +46,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Clases\Alquiler.cs" />
-    <Compile Include="Clases\Clientes.cs" />
-    <Compile Include="Clases\vehiculos.cs" />
+    <Compile Include="clientes.cs" />
     <Compile Include="Formularios\Aquiler.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -74,6 +72,9 @@
     </Compile>
     <Compile Include="Formularios\Vehiculos.Designer.cs">
       <DependentUpon>Vehiculos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="VehiculosH.cs">
+      <SubType>Form</SubType>
     </Compile>
     <EmbeddedResource Include="Formularios\Aquiler.resx">
       <DependentUpon>Aquiler.cs</DependentUpon>

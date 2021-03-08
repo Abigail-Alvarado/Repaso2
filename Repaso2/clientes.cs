@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Repaso2.Clases
+namespace Repaso2
 {
-    class Clientes
+    class clientes
     {
         string nit, nombre, direccion;
 
