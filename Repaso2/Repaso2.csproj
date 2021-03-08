@@ -97,6 +97,9 @@
     <EmbeddedResource Include="Formularios\Vehiculos.resx">
       <DependentUpon>Vehiculos.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="VehiculosH.resx">
+      <DependentUpon>VehiculosH.cs</DependentUpon>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
